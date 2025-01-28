@@ -5,24 +5,25 @@ import "./style.css"
 function App() {
   return (
     <>
-    <div>
-      <a className='app' href="">About</a>
-      <a className='app' href="">Store</a>
+    <div className='fixed-top as'>
+      <p style={{ color: "#6F6F99 !important" }} >
+        <a href="">About</a> <a href="">Store</a>
+      </p>
     </div>
       <div className="d-flex justify-content-center google-img">
         <a href="google.com">
-          <img src={google} alt="" width={"280"} />
+          <img src={google} alt="" width="280" />
         </a>
       </div>
 
       <div className="input-group mb-3 text-center d-flex justify-content-center g-put">
-        <span className="input-group-text" id="search-icon">
-          <i className="bx bx-search-alt-2 bx-sm"></i>
+        <span className="input-group-text" id="Search-icon">
+          <i className="bx bx-search"></i>
         </span>
         <input
           type="text"
           className="google-input"
-          aria-describedby="search-icon"
+          aria-describedby="Search-icon"
         />
       </div>
 
@@ -44,18 +45,15 @@ function App() {
         <p className="p-footer">Indonesia</p>
         <hr />
         <p className="a-footer">
-          <a href="#" className="a-foot" style={{ color: "#6F6F99" }}>
-            About
-          </a>
-          <a href="#" className="a-foot" style={{ color: "#6F6F99" }}>
-            Diskcode
-          </a>
-          <a href="#" className="a-foot" style={{ color: "#6F6F99" }}>
-            Business
-          </a>
-          <a href="#" className="a-foot" style={{ color: "#6F6F99" }}>
-            Instagram
-          </a>
+          <a href="" className="a-foot" style={{ color: "#6F6F99" }}>
+            Adverstising
+          </a>{" "}
+          <a href="" className="a-foot" style={{ color: "#6F6F99" }}>
+             Business
+          </a>{" "}
+          <a href="" className="a-foot" style={{ color: "#6F6F99" }}>
+           How search works
+          </a>{" "}
         </p>
       </div>
     </>
